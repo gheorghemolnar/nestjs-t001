@@ -1,0 +1,14 @@
+query getUrls{
+    urls {
+        id
+        url_orig
+        url_new
+    }
+}
+
+mutation addUrl($url: String!) {
+    url(url: $url) {
+        id
+        url_orig: url
+    }
+}
