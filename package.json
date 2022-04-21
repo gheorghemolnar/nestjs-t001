@@ -1,4 +1,7 @@
 {
+  "dependencies": {
+    "@nestjs/mapped-types": "*"
+  },
   "name": "mc-url-shortener",
   "version": "1.0.0",
   "author": "Ju <julien.delaigues@icloud.com>",
